@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual C# Express 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Дракон и рыцарь 2", "Дракон и рыцарь 2\Дракон и рыцарь 2.csproj", "{0E173D63-0E1D-47DB-9628-05A7EE3AD218}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0E173D63-0E1D-47DB-9628-05A7EE3AD218}.Debug|x86.ActiveCfg = Debug|x86
+		{0E173D63-0E1D-47DB-9628-05A7EE3AD218}.Debug|x86.Build.0 = Debug|x86
+		{0E173D63-0E1D-47DB-9628-05A7EE3AD218}.Release|x86.ActiveCfg = Release|x86
+		{0E173D63-0E1D-47DB-9628-05A7EE3AD218}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

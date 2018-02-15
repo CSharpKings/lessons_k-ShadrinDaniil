@@ -8,11 +8,18 @@ namespace CheckPassword {
 	class Program {
       
 		static void Main(string[] args)  {
-            while (true)
+            int maximum = 5;
+            int tries = 0;
+
+
+
+
+            while(maximum > tries)
             {
                 string password = "Супер пароль!";
                 Console.WriteLine("Чтобы пользоваться моей программой, введи пароль!");
                 string answer = Console.ReadLine();
+
 
                 if (answer == password)
                 {
@@ -24,9 +31,10 @@ namespace CheckPassword {
                 }
                 else
                 {
+                    tries = tries + 1;
                     Console.WriteLine("Неправильно! Хаха, ты не пройдешь!");
                     Console.ReadLine();
- 
+                    
                 }
             }
 		}

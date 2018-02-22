@@ -10,13 +10,18 @@ namespace ConsoleApplication1
     {
         static void Main(string[] args)
         {
-            int number = 0
-            while (true)
+            int number = 0;
+            
+            while (number < 9)
             { 
-                Thread.Sleep(1500);
-                number = number + 1;
-                Console.WriteLine(number * 7 "="
+               number = number + 1;
+               int product = number * 7;
+               
+                Console.WriteLine(number +"*"+ 7 +"="+ product );
+                
 
+            }
+            Console.ReadLine();
         }
     }
 }

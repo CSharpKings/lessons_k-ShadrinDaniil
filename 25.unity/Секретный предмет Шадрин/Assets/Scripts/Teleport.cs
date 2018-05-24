@@ -10,8 +10,8 @@ public class Teleport : MonoBehaviour {
 	{
 
 		time = time + Time.deltaTime;
-		if (time > 20) {
-			transform.position = new Vector3 (-5.577394f, 2.040581f, -2.73927f);
+		if (time > 33) {
+			transform.position = new Vector3 (-31.8f, 10f, -2.73927f);
 			time = 0;
 		}
 
